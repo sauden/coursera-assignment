@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 1px solid black;
+    
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+#nav-list .text-center {
+    margin-top: 10px;
+}
+
+.navbar-header button.navbar-toggle {
+    border: 1px solid black;
+}
+
+.navbar-header .icon-bar span {
+    color: black;
+}
+
+.navbar-header button.navbar-toggle.active, .navbar-header .icon-bar {
+    border: 1px solid white;
+    color : white;
+}
+
+
+
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -32px;
+}
+
+.navbar-brand a{
+    color:black;
+}
+
+
+
+h1 {
+    font-size: 1.75em;
+    padding-bottom: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+section {
+    background-color: #999999;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;  
+    padding: 0;
+}
+
+section h3 {
+    font-size: 1.25em;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+section p {
+    padding: 0 6px 4px 6px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+
+/* END OF HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-nav {
+        border: 1px solid black;
+        margin-top: 0;
+        margin-right: -15px;
+        margin-bottom: 0px;
+        margin-left: -15px;
+        background-color: white;}
+
+    .navbar-nav > hr{
+        border: 1px solid black;
+    }
+
+    #nav-list>li>p {
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+
+}
